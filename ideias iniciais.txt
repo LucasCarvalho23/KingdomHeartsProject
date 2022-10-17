@@ -1,0 +1,25 @@
+Idéias iniciais:
+
+(Without Blog):
+
+Home: projetos em andamento (1st div (slide) and 2rd div) / Faça uma doação (1st div (slide)) / Faça sua matrícula (1st div (slide)) / Contato (header)
+
+Quem somos nós: auto explicativo
+
+Anuario: Todas as turmas que passaram, separadas por ano e depois turma.
+
+Momentos: Momentos atuais postados ordenados e com opção de busca
+
+
+
+With Blog: 
+
+Home: Postagens novas (2nd div) / projetos em andamento (1st div (slide) and 3rd div) / Faça uma doação (1st div (slide)) / Faça sua matrícula (1st div (slide)) / Contato (header)
+
+Quem somos nós: auto explicativo
+
+Anuario: Todas as turmas que passaram, separadas por ano e depois turma.
+
+Momentos: Momentos atuais postados ordenados e com opção de busca
+
+Blog: Postagens ordenadas por tema e com opção de busca
