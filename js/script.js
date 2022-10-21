@@ -60,6 +60,7 @@ class Creche {
 
 
     // SLIDER
+    
     sliderPassFunction() {
         
         this.arrayImg = []
@@ -70,7 +71,6 @@ class Creche {
             this.arrayImg[this.count] = document.querySelector ("#slide" + this.count + "-id")
         }
 
-        console.log (this.arrayImg)
         this.validationSlider()
 
     }
@@ -78,7 +78,6 @@ class Creche {
     validationSlider() {
         
         setInterval(() => {
-            console.log ("it's ok")
             this.slideClass.src = "./image/pic" + this.count2 + "-div1.jpg"
             this.count2++
             
