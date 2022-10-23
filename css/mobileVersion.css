@@ -113,6 +113,7 @@ main {
 }
 
 .slider-class > li > label {
+    visibility: hidden;
     display: block;
     position: absolute;
     cursor: pointer;
@@ -182,7 +183,7 @@ main {
 .slider-class > li > img {
     margin: auto;
     max-width: 90vw; 
-    max-height: 90vh;
+    max-height: 270px;
     vertical-align: top;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.082);
