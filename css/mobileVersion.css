@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -82,11 +83,12 @@ menu > div > ul > li > a:hover {
 
 
 /* SLIDE */
-main > section {
+main {
     text-align: center;
+    display: inline;
 }
 
-main > section > div > ul { 
+.slider-class { 
     display: block;
     position: relative;
     margin: auto;
@@ -95,22 +97,22 @@ main > section > div > ul {
     max-height: 90vh;
 }
 
-main > section > div > ul > li {
+.slider-class > li {
     position: absolute;
     list-style: none;
 }
 
-main > section > div > ul > li > input {
+.slider-class > li > input {
     display: none;
 }
 
-main > section > div > ul > li > input:checked ~ img {
+.slider-class > li > input:checked ~ img {
     opacity: 1;
     visibility: visible;
     z-index: 10;
 }
 
-main > section > div > ul > li > label {
+.slider-class > li > label {
     display: block;
     position: absolute;
     cursor: pointer;
@@ -122,62 +124,62 @@ main > section > div > ul > li > label {
     border: 1.5px solid rgba(110, 1, 1, 0.349);
 }
 
-main > section > div > ul > li:nth-child(1) label {
+.slider-class > li:nth-child(1) label {
     left: 12.2vw;
 }
 
-main > section > div > ul > li:nth-child(1) label:hover {
+.slider-class > li:nth-child(1) label:hover {
     background-color: white;
     border: 2px solid red;
 }
 
-main > section > div > ul > li:nth-child(2) label {
+.slider-class > li:nth-child(2) label {
     left: 24.5vw;
 }
 
-main > section > div > ul > li:nth-child(2) label:hover {
+.slider-class > li:nth-child(2) label:hover {
     background-color: white;
     border: 2px solid red;
 }
 
-main > section > div > ul > li:nth-child(3) label {
+.slider-class > li:nth-child(3) label {
     left: 36.8vw;
 }
 
-main > section > div > ul > li:nth-child(3) label:hover {
+.slider-class > li:nth-child(3) label:hover {
     background-color: white;
     border: 2px solid red;
 }
 
-main > section > div > ul > li:nth-child(4) label {
+.slider-class > li:nth-child(4) label {
     left: 49.1vw;
 }
 
-main > section > div > ul > li:nth-child(4) label:hover {
+.slider-class > li:nth-child(4) label:hover {
     background-color: white;
     border: 2px solid red;
 }
 
-main > section > div > ul > li:nth-child(5) label {
+.slider-class > li:nth-child(5) label {
     left:61.4vw;
 }
 
-main > section > div > ul > li:nth-child(5) label:hover {
+.slider-class > li:nth-child(5) label:hover {
     background-color: white;
     border: 2px solid red;
 }
 
-main > section > div > ul > li:nth-child(6) label {
+.slider-class > li:nth-child(6) label {
     left: 73.6vw;
 }
 
-main > section > div > ul > li:nth-child(6) label:hover {
+.slider-class > li:nth-child(6) label:hover {
     background-color: white;
     border: 2px solid red;
     translate: background .4s;
 }
 
-main > section > div > ul > li > img {
+.slider-class > li > img {
     margin: auto;
     max-width: 90vw; 
     max-height: 90vh;
@@ -186,4 +188,66 @@ main > section > div > ul > li > img {
     box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.082);
     opacity: 0;
     visibility: hidden;
+}
+
+
+/* SECTION */
+
+#cointainer-welcome-id {
+    position: relative;
+}
+
+#cointainer-welcome-id > section {
+    position: absolute;
+    margin-top: 300px;
+    width: 100%;
+}
+
+#cointainer-welcome-id > section > h2 {
+    text-align: left;
+    padding: 3px 3px 3px 10px;
+    background: linear-gradient(to right, red, white);
+    color: white;
+    margin-top: 30px;
+}
+
+#cointainer-welcome-id > section > p {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+/* BUTTONS */
+
+button {
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    transition: background .1s;
+}
+
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    margin-top: 1700px;
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
 }
