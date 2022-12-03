@@ -93,7 +93,8 @@ main {
 }
 
 .slider-class { 
-    display: block;
+    display: flex;
+    justify-content: center;
     position: relative;
     margin: auto;
     margin-top: 20px;
